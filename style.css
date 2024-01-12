@@ -5,6 +5,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -38,4 +39,17 @@ nav a {
     text-decoration: none;
     color: black;
     
+}
+.header {
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px  30px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .profile-picture{
+    width: 584px;
+height: 676px;
+flex-shrink: 0;
 }
