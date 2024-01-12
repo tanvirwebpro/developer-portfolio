@@ -173,9 +173,11 @@ font-family: Open Sans;
 font-size: 30px;
 font-weight: 700;
 line-height: normal;
+
 }
 .resume-container{
     display: flex;
+    gap: 20px;
 }
 .rersume-item-title{
     color: var(--Dark-02, #474747);
@@ -192,4 +194,64 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+.download-cv    {
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    width: 50%;
+}
+.footer-head{
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    width: 1600px;
+    height: 780px;
+}
+.footer-head-L{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.foot-pera{
+    color: var(--Dark-02, #474747);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+line-height: 28px; /* 175% */
+padding: 100px;
+}
+.name{
+
+    width: 461px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--White-Color, #FFF);
+}
+.email { 
+    margin-top: 20px;
+    width: 461px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+
+}
+.massage{
+    margin-top:20px ;
+    width: 461px;
+height: 180px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--White-Color, #FFF);
+}
+#btn{
+    margin-top: 30px;
 }
